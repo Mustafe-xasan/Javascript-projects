@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layliye - Wisdom Generator</title>
+    <!-- Modern Serif & Sans-Serif Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&family=Inter:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for sleek icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="page-background"></div>
+    <div class="page-overlay"></div>
+
+    <main class="container">
+        <div class="quote-card">
+            <header>
+                <h2>Quote of the Day</h2>
+            </header>
+
+            <div class="quote-area">
+                <i class="fas fa-quote-left quote-mark top"></i>
+                <p id="quote-text">Wisdom is not a product of schooling but of the lifelong attempt to acquire it.</p>
+                <i class="fas fa-quote-right quote-mark bottom"></i>
+            </div>
+
+            <div class="author-section">
+                <span>—</span>
+                <p id="author"></p>
+            </div>
+
+            <div class="divider"></div>
+
+            <footer>
+                <div class="actions">
+                    <button class="action-btn" id="speak-btn" title="Listen">
+                        <i class="fas fa-volume-up"></i>
+                    </button>
+                    <button class="action-btn" id="copy-btn" title="Copy">
+                        <i class="fas fa-copy"></i>
+                    </button>
+                </div>
+
+                <button id="new-quote-btn">New Quote</button>
+            </footer>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
