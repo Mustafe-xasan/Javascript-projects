@@ -31,17 +31,17 @@ This project is a basic counter app that allows users to **increment**, **decrem
 
 ### 🔼 Increment Action
 <p align="center">
-  <img src="C:/Users/mustafe/Downloads/increment.png" width="300" alt="Increment Counter"/>
+  <img src="./screenshots/increment.png" width="300" alt="Increment Counter"/>
 </p>
 
 ### 🔽 Decrement Action
 <p align="center">
-  <img src="C:/Users/mustafe/Downloads/decrement.png" width="300" alt="Decrement Counter"/>
+  <img src="./screenshots/decrement.png" width="300" alt="Decrement Counter"/>
 </p>
 
 ### 🔄 Reset Action
 <p align="center">
-  <img src="C:/Users/mustafe/Downloads/reset.png" width="300" alt="Reset Counter"/>
+  <img src="./screenshots/reset.png" width="300" alt="Reset Counter"/>
 </p>
 
 ---
