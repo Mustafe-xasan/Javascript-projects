@@ -1,0 +1,105 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(rgba(0, 51, 102, 0.7), rgba(0, 51, 102, 0.7)), url('assets/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.calc-box {
+    background: #001f3f;
+    padding: 25px;
+    border-radius: 15px;
+    width: 320px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.display-area {
+    background: #ffffff;
+    color: #001f3f;
+    height: 70px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    word-break: break-all;
+}
+
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+}
+
+.btn {
+    height: 60px;
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background: #003366;
+    color: white;
+    transition: all 0.2s ease;
+}
+
+.btn:hover {
+    background: #004080;
+    transform: scale(1.05);
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
+
+.btn-eq {
+    background: #ffffff;
+    color: #001f3f;
+    grid-row: span 2;
+    height: 132px;
+}
+
+.btn-eq:hover {
+    background: #eeeeee;
+}
+
+.btn-clear {
+    background: #ff4136;
+    color: white;
+    grid-column: span 2;
+}
+
+.btn-clear:hover {
+    background: #ff6056;
+}
+
+
+.btn-zero {
+    grid-column: span 2;
+}
+
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+.main-wrap {
+    perspective: 1000px;
+}
