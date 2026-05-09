@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layliye - School Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="page-overlay"></div>
+    <div class="app-container">
+        <!-- Student project header -->
+        <div class="header">
+            <h1 class="logo">Layliye</h1>
+            <p class="tagline">Empowering Minds, One Question at a Time</p>
+        </div>
+
+        <div id="quiz-box" class="quiz-card">
+            <h2 id="question-text">
+                <i class="fas fa-question-circle"></i> Question goes here...
+            </h2>
+            <div id="answer-buttons" class="btn-grid">
+                <!-- Buttons will be added by JS -->
+            </div>
+            <div class="controls">
+                <button id="next-btn" class="next-btn" style="display: none;">
+                    Next <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+
+        <div id="result-box" class="quiz-card" style="display: none;">
+            <h2><i class="fas fa-trophy"></i> Quiz Finished!</h2>
+            <p id="score-text"></p>
+            <div class="controls">
+                <button onclick="location.reload()" class="restart-btn">
+                    <i class="fas fa-redo"></i> Try Again
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
