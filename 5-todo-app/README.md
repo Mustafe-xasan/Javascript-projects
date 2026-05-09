@@ -32,9 +32,6 @@ This to‑do app lets you add, edit, delete, and mark tasks as complete. It keep
 
 ## 📸 App Preview
 
-> 🖼️ Replace the image paths with your actual screenshots
-
-### 🖥️ Main Interface
 <p align="center">
   <img src="./screenshots/todo.png" width="400" alt="Todo Main View"/>
 </p>
