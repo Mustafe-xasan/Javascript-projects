@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hage - Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="page-overlay"></div>
+    <div class="form-container">
+        <div class="form-card">
+            <h1 class="title">Register Now</h1>
+            <p class="subtitle">Join our community today!</p>
+            <div class="line"></div>
+
+            <form id="hageForm">
+                <div class="input-box">
+                    <i class="fa fa-user"></i>
+                    <input type="text" id="username" placeholder="Name">
+                    <small id="usernameError"></small>
+                </div>
+
+                <div class="input-box">
+                    <i class="fa fa-envelope"></i>
+                    <input type="text" id="email" placeholder="Email Id">
+                    <small id="emailError"></small>
+                </div>
+
+                <div class="input-box">
+                    <i class="fa fa-lock"></i>
+                    <input type="password" id="pass" placeholder="Password">
+                    <i class="fa fa-eye toggle-eye"></i>
+                    <small id="passError"></small>
+                </div>
+
+                <div class="input-box">
+                    <i class="fa fa-lock"></i>
+                    <input type="password" id="confirm" placeholder="Confirm Password">
+                    <i class="fa fa-eye toggle-eye"></i>
+                    <small id="confirmError"></small>
+                </div>
+
+                <p class="forgot">Lost password? <span>Click here!</span></p>
+
+                <div class="btn-row">
+                    <button type="submit" class="btn-primary">
+                        Register <i class="fa fa-arrow-right"></i>
+                    </button>
+                </div>
+
+                <p class="login-link">Already have an account? <span>Sign in</span></p>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
