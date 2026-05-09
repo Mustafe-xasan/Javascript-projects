@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hage To-Do</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- easy icons for my projecta -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="app-head">
+            <h1>Hage</h1>
+            <div id="statusCounter" class="stat-text">0/0 completed</div>
+        </div>
+
+
+        <div class="input-box">
+            <input type="text" id="taskInput" placeholder="Enter a new task...">
+            <button onclick="addBtnClick()">Add</button>
+        </div>
+        <ul id="todoList">
+            <!-- items will go here -->
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
