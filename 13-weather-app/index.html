@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Background overlay -->
+    <div class="bg-overlay"></div>
+
+    <!-- moving icons in the background -->
+    <div class="shape shape-1">☀️</div>
+    <div class="shape shape-2">☁️</div>
+    <div class="shape shape-3">🌧️</div>
+    <div class="shape shape-4">⚡</div>
+    <div class="shape shape-5">❄️</div>
+
+    <div class="weather-card">
+        <h1>Weather App</h1>
+
+        <div class="search">
+            <input type="text" id="cityInput" placeholder="Enter city name...">
+            <button id="searchBtn">Search</button>
+        </div>
+
+        <div id="weatherResult" class="result" style="display: none;">
+            <h2 id="cityName">City Name</h2>
+            <div class="temp-box">
+                <span id="temperature">--</span>°C
+            </div>
+            <p id="condition">Condition</p>
+        </div>
+
+        <p id="errorMessage" class="error"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
