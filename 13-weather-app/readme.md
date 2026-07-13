@@ -34,7 +34,7 @@ The app is easy to use and works on phones, tablets, and computers.
 
 ### 🏠 Weather Home Page
 <p align="center">
-  <img src="./screenshots/wheather-home-page" width="400" alt="Weather App Home"/>
+  <img src="./screenshots/wheather-home-page.png" width="400" alt="Weather App Home"/>
 </p>
 
 ### 🔍 Search Results Example
