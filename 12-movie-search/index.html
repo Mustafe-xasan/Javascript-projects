@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fanproj films - Premium Movie Experience</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="background-overlay"></div>
+
+    <header class="app-header">
+        <div class="logo">
+            <i class="fas fa-play-circle"></i>
+            <span>fanproj films</span>
+        </div>
+        <div class="search-container">
+            <input type="text" id="movie-search" placeholder="Search for a movie..." autocomplete="off">
+            <button id="search-btn"><i class="fas fa-search"></i></button>
+        </div>
+    </header>
+
+    <main class="content">
+        <div class="section-title" id="grid-title">Featured Films</div>
+        <div id="results-grid" class="results-grid">
+            <!-- Movie cards will be injected here -->
+        </div>
+    </main>
+
+    <footer class="app-footer">
+        <p>Built with <i class="fas fa-heart"></i> for Movie Lovers</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
