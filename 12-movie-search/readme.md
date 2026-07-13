@@ -31,10 +31,10 @@ The app is easy to use and looks like a premium movie service.
 ## 📸 App Preview
 
 ### Home Page – Featured Films
-![Project Home Page](./assets/screenshots/project-home-page.png)
-
-### Search Results
-![After Searching](./assets/screenshots/after-searching.png)
+🏠 Home Page – Featured Films
+<p align="center"> <img src="./screenshots/project-home-page.png" width="400" alt="Featured Movies"/> </p>
+🔍 Search Results Example
+<p align="center"> <img src="./screenshots/after-searching.png" width="400" alt="Search Results"/> </p>
 
 
 ## 🚀 How to Run the App
